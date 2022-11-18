@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // timerModal = setTimeout(openModal, 5000);
+  timerModal = setTimeout(openModal, 5000);
 
   function openModalByScrol() {
     if (
@@ -92,7 +92,7 @@ window.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", openModalByScrol);
 
   // TIMER PROMOTION
-  const deadline = "2022-11-15";
+  const deadline = "2022-12-15";
 
   function getTimeRemaining(endtime) {
     let days, hours, minutes, seconds;
